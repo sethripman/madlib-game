@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seth's Mad Lib Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <article>
+        <p>
+            Noun : <input 
+            id="noun-1" value="person">
+        </p>
+        <p>
+            Verb : <input 
+            id="verb-1" value="worked">
+        </p>
+        <p>
+            Noun : <input 
+            id="noun-2" value="dog">
+        </p>
+        <p>
+            Verb : <input 
+            id="verb-2" value="eat">
+        </p>
+        <p>
+            Noun : <input 
+            id="noun-3" value="food">
+        </p>
+        <p>
+            Noun : <input 
+            id="noun-4" value="sad">
+        </p>
+        <p>
+            Place : <input 
+            id="noun-5" value="Milwaukee">
+        </p>
+
+        <p> <button onclick="handleKeyPress()">Fire it up!</button> </p>
+
+        <p class="hidden" id="surprise">Once upon a time, a <span id="noun1"></span> lived in the woods. They <span id="verb1"></span> from early in the morning until late at night every day. But they had a <span id="noun2"></span> that would <span id="verb2"></span> their <span id="noun3"></span> when they weren't looking, and this made them feel so <span id="noun4"></span> that they left the woods and moved to <span id="noun5"></span>.</p>
+
+    </article>
+</body>
+</html>

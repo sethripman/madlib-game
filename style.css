@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+button {
+    height: 50px;
+    width:120px;
+}
+.hidden {
+    visibility: hidden;
+}
